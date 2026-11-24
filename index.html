@@ -769,6 +769,16 @@ section {
 
 
 
+/* CURSO ENEAGRAMA */
+#curso-eneagrama { background: var(--off-white); }
+.curso-grid { display:grid; grid-template-columns: 1fr 1.2fr; gap:48px; align-items:center; margin-top:32px; }
+.curso-texto p { font-size:17px; line-height:1.7; color:var(--texto-suave); margin:0 0 16px; }
+.curso-acoes { display:flex; flex-wrap:wrap; gap:20px; align-items:center; margin-top:24px; }
+.curso-link { color:var(--texto); font-weight:600; text-decoration:underline; text-underline-offset:4px; }
+.curso-video { position:relative; aspect-ratio:16/9; width:100%; border-radius:4px; overflow:hidden; background:#000; }
+.curso-video iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+@media (max-width: 860px) { .curso-grid { grid-template-columns:1fr; gap:28px; } }
+
 /* YOUTUBE GRID */
 .youtube-grid {
   display: grid;
@@ -1226,6 +1236,26 @@ src="https://www.facebook.com/tr?id=764709030576595&ev=PageView&noscript=1"
       <h3>Não tem preço listado. É de propósito.</h3>
       <p>Cada parceria é desenhada a partir do que está em jogo. Vamos conversar antes.</p>
       <a href="#conversa" class="btn btn-primary">Iniciar conversa</a>
+    </div>
+  </div>
+</section>
+
+<section id="curso-eneagrama">
+  <div class="section-inner">
+    <span class="section-eyebrow">Curso gratuito</span>
+    <h2 class="section-title">Eneagrama Fundamental, completo e aberto.</h2>
+    <div class="curso-grid">
+      <div class="curso-texto">
+        <p>São 12 aulas no YouTube: o que está por trás do comportamento, as tríades, os instintos e cada um dos 9 tipos com seus subtipos. O mesmo método que eu uso com líderes e equipes, sem custo e no seu ritmo.</p>
+        <p>Quando quiser ir além da teoria, a identificação individual fecha o seu tipo com entrevista e devolutiva.</p>
+        <div class="curso-acoes">
+          <a class="btn btn-primary" href="https://www.youtube.com/playlist?list=PLBwxUkPGcEar-3L0haHuGgYPHGIQQrLdy" target="_blank" rel="noopener">Assistir ao curso</a>
+          <a class="curso-link" href="/eneagrama/">Como funciona a identificação</a>
+        </div>
+      </div>
+      <div class="curso-video">
+        <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBwxUkPGcEar-3L0haHuGgYPHGIQQrLdy" title="Curso gratuito Eneagrama Fundamental" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </section>
