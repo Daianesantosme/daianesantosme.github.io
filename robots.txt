@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daianesantos.com.br/sitemap.xml
